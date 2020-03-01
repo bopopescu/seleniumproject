@@ -1,0 +1,3 @@
+1566191993104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\amruth\\AppData\\Local\\Temp\\rust_mozprofile.iPTTzobqP27Z"
+1566192048203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\amruth\\AppData\\Local\\Temp\\rust_mozprofile.UxCQNZiukX8w"
+1566198800375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\amruth\\AppData\\Local\\Temp\\rust_mozprofile.19r8SVNGSwia"

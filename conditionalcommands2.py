@@ -1,0 +1,16 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+driver=webdriver.Chrome(executable_path="C:\selenium\drivers\chromedriver.exe")
+driver.get("http://newtours.demoaut.com")
+print(driver.title)
+user_name=driver.find_element_by_name("userName")
+print(user_name.is_displayed())
+print(user_name.is_enabled())
+passwd=driver.find_element_by_name("password")
+print(passwd.is_displayed())
+print(passwd.is_enabled())
+user_name.send_keys("mercury")
+passwd.send_keys("mercury")
+driver.find_element_by_name("login").click()
+round_trip=driver.find_element_by_css_selector("input[value=roundtrip]")
+print(round_trip.is_selected())
